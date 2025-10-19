@@ -1,0 +1,1878 @@
+{
+  "subjects": [
+    {
+      "id": 1760873358895,
+      "name": "CS101",
+      "total": 234,
+      "completed": 5,
+      "priority": "high",
+      "color": "#ff0505",
+      "notes": [
+        {
+          "id": 1760873488737,
+          "text": "https://www.youtube.com/playlist?list=PLGGA4G4xfTpoSx9tIhYAvLK2UnVwvtfvO",
+          "timestamp": "2025-10-19T11:31:28.737Z"
+        },
+        {
+          "id": 1760880585833,
+          "text": "1 lecture = 5 lectures,\ntotal lectures 234",
+          "timestamp": "2025-10-19T13:29:45.833Z"
+        }
+      ]
+    },
+    {
+      "id": 1760873381816,
+      "name": "MTH101",
+      "total": 45,
+      "completed": 0,
+      "priority": "high",
+      "color": "#ffbb00",
+      "notes": [
+        {
+          "id": 1760873502697,
+          "text": "https://www.youtube.com/playlist?list=PLaSMfzauIJGK0m80UVf6Mk7PcvQ5vxW7W",
+          "timestamp": "2025-10-19T11:31:42.697Z"
+        }
+      ]
+    },
+    {
+      "id": 1760873395928,
+      "name": "PHY301",
+      "total": 45,
+      "completed": 0,
+      "priority": "medium",
+      "color": "#fff700",
+      "notes": [
+        {
+          "id": 1760873512465,
+          "text": "vulms lecture",
+          "timestamp": "2025-10-19T11:31:52.465Z"
+        }
+      ]
+    },
+    {
+      "id": 1760873408485,
+      "name": "MTH202",
+      "total": 45,
+      "completed": 0,
+      "priority": "medium",
+      "color": "#11ff00",
+      "notes": [
+        {
+          "id": 1760873521817,
+          "text": "https://www.youtube.com/playlist?list=PLaSMfzauIJGIW58kNmgFchlGGiJu5rSRC",
+          "timestamp": "2025-10-19T11:32:01.817Z"
+        }
+      ]
+    },
+    {
+      "id": 1760873423245,
+      "name": "ENG101",
+      "total": 45,
+      "completed": 0,
+      "priority": "medium",
+      "color": "#4f46e5",
+      "notes": [
+        {
+          "id": 1760873530302,
+          "text": "https://www.youtube.com/playlist?list=PLP4jqZZBeTPrFLAj2_Lyt_G0rFUgzZW-e",
+          "timestamp": "2025-10-19T11:32:10.302Z"
+        }
+      ]
+    },
+    {
+      "id": 1760873435013,
+      "name": "MTH100",
+      "total": 45,
+      "completed": 0,
+      "priority": "low",
+      "color": "#a39eff",
+      "notes": [
+        {
+          "id": 1760873539917,
+          "text": "https://www.youtube.com/playlist?list=PLb_lcwOJoSku3PoY0o_6HXC7NIvt5KSUa",
+          "timestamp": "2025-10-19T11:32:19.917Z"
+        }
+      ]
+    },
+    {
+      "id": 1760873463225,
+      "name": "PAK301",
+      "total": 30,
+      "completed": 0,
+      "priority": "low",
+      "color": "#c7f4ff",
+      "notes": [
+        {
+          "id": 1760873547789,
+          "text": "https://www.youtube.com/playlist?list=PLP4jqZZBeTPreGmaZHCI1Mvh1NdSDMh9O",
+          "timestamp": "2025-10-19T11:32:27.789Z"
+        }
+      ]
+    }
+  ],
+  "schedule": {
+    "2025-10-13": [],
+    "2025-10-14": [],
+    "2025-10-15": [],
+    "2025-10-16": [],
+    "2025-10-17": [],
+    "2025-10-18": [],
+    "2025-10-19": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": true,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": true,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": true,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": true,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": true,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-20": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-21": [
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-22": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-23": [
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-24": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-25": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-26": [
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-27": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-28": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-29": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-30": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-10-31": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-01": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-02": [
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-03": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-04": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-05": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-06": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-07": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-08": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-09": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-10": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-11": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-12": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-13": [
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-14": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-15": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-16": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-17": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-18": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-19": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-20": [
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-21": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-22": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-23": [
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-24": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-25": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-26": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-27": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-28": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-29": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-11-30": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-01": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-02": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-03": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-04": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-05": [
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-06": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-07": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-08": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-09": [
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-10": [
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-11": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-12": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-13": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-14": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-15": [
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-16": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-17": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-18": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-19": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-20": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-21": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-22": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-23": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-24": [
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-25": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-26": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-27": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-28": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-29": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-30": [
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2025-12-31": [
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2026-01-01": [
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2026-01-02": [
+      {
+        "subjectId": 1760873395928,
+        "subjectName": "PHY301",
+        "color": "#fff700",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2026-01-03": [
+      {
+        "subjectId": 1760873423245,
+        "subjectName": "ENG101",
+        "color": "#4f46e5",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873435013,
+        "subjectName": "MTH100",
+        "color": "#a39eff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873381816,
+        "subjectName": "MTH101",
+        "color": "#ffbb00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ],
+    "2026-01-04": [
+      {
+        "subjectId": 1760873408485,
+        "subjectName": "MTH202",
+        "color": "#11ff00",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873463225,
+        "subjectName": "PAK301",
+        "color": "#c7f4ff",
+        "done": false,
+        "notes": []
+      },
+      {
+        "subjectId": 1760873358895,
+        "subjectName": "CS101",
+        "color": "#ff0505",
+        "done": false,
+        "notes": []
+      }
+    ]
+  },
+  "studyHours": {
+    "monday": 2,
+    "tuesday": 2,
+    "wednesday": 2,
+    "thursday": 2,
+    "friday": 2,
+    "saturday": 5,
+    "sunday": 5
+  },
+  "reminders": [],
+  "studyHistory": [
+    {
+      "weekRange": "Oct 13 - Oct 19, 2025",
+      "totalSessions": 10,
+      "completedSessions": 5
+    }
+  ],
+  "exportDate": "2025-10-19T13:56:14.418Z"
+}
