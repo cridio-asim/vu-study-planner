@@ -248,28 +248,43 @@
         }
 
         .add-lecture-btn {
-            transition: all 0.3s ease;
+            position: absolute;
+            margin: 0;
+            top: 16px;
+            right: 15px;
+            width: fit-content;
+            padding: 2px 8px;
+            background: transparent;
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s !important;
+        }
+
+        .add-lecture-btn svg {
+            margin: 0;
         }
 
         .add-lecture-btn:hover {
             transform: scale(1.05);
         }
 
-        .add-lecture-btn {
-    position: absolute;
-    margin: 0;
-    top: 16px;
-    right: 15px;
-    width: fit-content;
-    padding: 2px 8px;
-    background: transparent;
-}
+        .subject-card:hover .add-lecture-btn {
+            opacity: 1;
+            visibility: visible;
+        }
 
-.add-lecture-btn svg {
-    margin: 0;
-}
+        .delete-lecture-btn,
+        .notes-btn {
+            opacity: 0;
+            visibility: hidden;
+            transition: .3s !important;
+        }
 
-
+        .study-session:hover .delete-lecture-btn,
+        .study-session:hover .notes-btn {
+            opacity: 1;
+            visibility: visible;
+        }
     </style>
 </head>
 
@@ -288,10 +303,12 @@
                 </div>
             </div>
             <div class="flex items-center space-x-2">
-                <button id="undoBtn" class="p-2 rounded-lg bg-white bg-opacity-20 text-white hover:bg-opacity-30 transition-colors">
+                <button id="undoBtn"
+                    class="p-2 rounded-lg bg-white bg-opacity-20 text-white hover:bg-opacity-30 transition-colors">
                     <i class="fas fa-undo"></i>
                 </button>
-                <button id="redoBtn" class="p-2 rounded-lg bg-white bg-opacity-20 text-white hover:bg-opacity-30 transition-colors">
+                <button id="redoBtn"
+                    class="p-2 rounded-lg bg-white bg-opacity-20 text-white hover:bg-opacity-30 transition-colors">
                     <i class="fas fa-redo"></i>
                 </button>
                 <button id="darkModeToggle"
@@ -855,7 +872,7 @@
                     reminders: JSON.parse(JSON.stringify(reminders)),
                     studyHistory: JSON.parse(JSON.stringify(studyHistory))
                 };
-                
+
                 undoStack.push(state);
                 if (undoStack.length > maxUndoSteps) {
                     undoStack.shift();
@@ -873,16 +890,16 @@
                         reminders: JSON.parse(JSON.stringify(reminders)),
                         studyHistory: JSON.parse(JSON.stringify(studyHistory))
                     };
-                    
+
                     redoStack.push(currentState);
                     const previousState = undoStack.pop();
-                    
+
                     subjects = previousState.subjects;
                     schedule = previousState.schedule;
                     studyHours = previousState.studyHours;
                     reminders = previousState.reminders;
                     studyHistory = previousState.studyHistory;
-                    
+
                     saveData();
                     renderAll();
                     showNotification('Action undone', 'info');
@@ -901,16 +918,16 @@
                         reminders: JSON.parse(JSON.stringify(reminders)),
                         studyHistory: JSON.parse(JSON.stringify(studyHistory))
                     };
-                    
+
                     undoStack.push(currentState);
                     const nextState = redoStack.pop();
-                    
+
                     subjects = nextState.subjects;
                     schedule = nextState.schedule;
                     studyHours = nextState.studyHours;
                     reminders = nextState.reminders;
                     studyHistory = nextState.studyHistory;
-                    
+
                     saveData();
                     renderAll();
                     showNotification('Action redone', 'info');
@@ -1461,7 +1478,7 @@
             // ---- IMPROVED SCHEDULE GENERATION ----
             const generateSchedule = () => {
                 saveState();
-                
+
                 // Clear existing schedule but preserve completed lectures
                 const preservedLectures = {};
                 Object.keys(schedule).forEach(date => {
@@ -1469,10 +1486,10 @@
                 });
 
                 schedule = {};
-                
+
                 // Get subjects with remaining lectures
                 const subjectsWithRemaining = subjects.filter(s => s.completed < s.total);
-                
+
                 if (subjectsWithRemaining.length === 0) {
                     // Restore preserved lectures
                     Object.keys(preservedLectures).forEach(date => {
@@ -1486,14 +1503,14 @@
                 }
 
                 // Calculate total remaining lectures
-                const totalRemainingLectures = subjectsWithRemaining.reduce((sum, subject) => 
+                const totalRemainingLectures = subjectsWithRemaining.reduce((sum, subject) =>
                     sum + (subject.total - subject.completed), 0);
-                
+
                 // Calculate total available sessions in 12 weeks
                 const totalWeeks = 12;
                 let totalAvailableSessions = 0;
                 const startDate = getMonday(new Date());
-                
+
                 for (let i = 0; i < totalWeeks * 7; i++) {
                     const date = new Date(startDate);
                     date.setDate(startDate.getDate() + i);
@@ -1505,10 +1522,10 @@
 
                 // Distribute lectures evenly
                 const lecturesPerWeek = Math.min(40, Math.ceil(totalRemainingLectures / totalWeeks));
-                
+
                 let lectureIndex = 0;
                 const allLectures = [];
-                
+
                 // Create array of all lectures to schedule
                 subjectsWithRemaining.forEach(subject => {
                     const remaining = subject.total - subject.completed;
@@ -1584,11 +1601,11 @@
                         ${hasReminders ? '<i class="fas fa-bell text-yellow-500"></i>' : ''}
                     </div>`;
                     dayHTML += `<p class="text-sm text-gray-500 mb-3">${dayDate}</p>`;
-                    
+
                     // Add Lecture Button
                     dayHTML += `<button class="add-lecture-btn rounded-lg hover:bg-indigo-200 transition-colors" data-date="${dateString}">
                         <i class="fas fa-plus mr-2"></i></button>`;
-                    
+
                     dayHTML += `<div class="space-y-2">`;
 
                     if (schedule[dateString] && schedule[dateString].length > 0) {
@@ -1654,7 +1671,7 @@
                         e.stopPropagation();
                         const date = button.dataset.date;
                         const index = parseInt(button.dataset.index);
-                        
+
                         if (confirm('Are you sure you want to delete this lecture?')) {
                             saveState();
                             schedule[date].splice(index, 1);
@@ -1683,7 +1700,7 @@
             const openAddLectureModal = (date) => {
                 addLectureDate.value = date;
                 subjectsForLecture.innerHTML = '';
-                
+
                 if (subjects.length === 0) {
                     subjectsForLecture.innerHTML = '<p class="text-gray-500 text-sm text-center">No subjects available. Please add subjects first.</p>';
                 } else {
@@ -1702,22 +1719,22 @@
                         subjectsForLecture.appendChild(subjectEl);
                     });
                 }
-                
+
                 addLectureModal.classList.remove('hidden');
-                
+
                 // Add event listeners for add buttons
                 document.querySelectorAll('.add-subject-lecture-btn').forEach(button => {
                     button.addEventListener('click', (e) => {
                         const subjectId = parseInt(button.dataset.id);
                         const subject = subjects.find(s => s.id === subjectId);
                         const date = addLectureDate.value;
-                        
+
                         if (subject) {
                             saveState();
                             if (!schedule[date]) {
                                 schedule[date] = [];
                             }
-                            
+
                             schedule[date].push({
                                 subjectId: subject.id,
                                 subjectName: subject.name,
@@ -1725,7 +1742,7 @@
                                 done: false,
                                 notes: []
                             });
-                            
+
                             saveData();
                             renderSchedule();
                             addLectureModal.classList.add('hidden');
